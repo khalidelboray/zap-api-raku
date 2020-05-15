@@ -1,6 +1,6 @@
 use Zap::Client;
 
-sub EXPORT($short_name?) {
+sub EXPORT() {
     %(
         'ZapClient' => Zap::Client,
     )
