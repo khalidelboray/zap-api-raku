@@ -1,1 +1,3 @@
 remote_theme: leakyabstractions/pretty-docs
+
+theme: jekyll-theme-midnight
