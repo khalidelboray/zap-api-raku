@@ -6,4 +6,4 @@
 
 ## Docs
 
-* [`Zap::Client`](Client/)
+* [`Zap::Client`](docs/Client/)
