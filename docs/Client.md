@@ -1,5 +1,7 @@
-class `Zap::Client`
+# class `Zap::Client`
+
 -------------------
+
 
 # Basic Construction
 
