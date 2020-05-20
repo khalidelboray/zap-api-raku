@@ -27,6 +27,10 @@ SYNOPSIS
         put %scan<id progress state>.fmt("%s",', ')
     }
 ```
+Installation
+============
+
+`zef install Zap`
 
 TODO
 ====
