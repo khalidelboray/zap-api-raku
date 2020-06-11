@@ -35,7 +35,7 @@ method request(PATH $path is copy,Cool $query = {},FORMAT :$format = $!format) {
             return (await $resp.body).values[0]<>;
         }
         default {
-            return await $resp.body;
+            return await $resp.body-text;
         }
     }
 
