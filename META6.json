@@ -1,7 +1,7 @@
 {
   "name": "Zap",
   "description": "A Raku module for the OWASP ZAP API.",
-  "version": "0.1",
+  "version": "0.2",
   "perl": "6.*",
   "authors": [
     "Khalid Elboray"

@@ -30,5 +30,13 @@ method request(PATH $path is copy,Cool $query = {},FORMAT :$format = $!format) {
         }
 
     }
-    return await $resp.body;
+    given $format {
+        when 'JSON' {
+            return (await $resp.body).values[0]<>;
+        }
+        default {
+            return await $resp.body;
+        }
+    }
+
 }
