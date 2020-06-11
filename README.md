@@ -41,6 +41,8 @@ TODO
 * Write a Script to provide a CLI `raku-zap` maybe ?
 * Write an Interface for the zap CLI 
 * Automate Spider and Scanners 
+* Since we are using Cro::HTTP::Client , we can handel the other response formats with `body-parsers` (a `Cro::HTTP::BodyParser` class)
+
 
 Bad Generated Docs (needs more work)
 ================== 
