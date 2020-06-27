@@ -341,7 +341,7 @@ our class Stats {
 	#| Statistics
 	method stats (:$keyPrefix) {
 		my $query = %();
-		$query<keyPrefix> = $keyPrefix if defined $keyPrefix ;
+		$query<keyPrefix> = $keyPrefix if defined $keyPrefix;
 		$ZapClient.request('stats/view/stats',$query);
 	}
 

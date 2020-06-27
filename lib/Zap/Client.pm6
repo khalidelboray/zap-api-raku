@@ -10,7 +10,7 @@ has $.client = Cro::HTTP::Client.new(
         headers => [
             Accept => "application/json",
         ]
-        );
+);
 
 
 
@@ -28,7 +28,6 @@ method request(PATH $path is copy,Cool $query = {},FORMAT :$format = $!format) {
         when X::Cro::HTTP::Error {
             die "Unexpected error While Requesting [ '{ .request.target }' ] \n\n $_";
         }
-
     }
     given $format {
         when 'JSON' {
@@ -38,5 +37,4 @@ method request(PATH $path is copy,Cool $query = {},FORMAT :$format = $!format) {
             return await $resp.body-text;
         }
     }
-
 }

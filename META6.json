@@ -14,7 +14,8 @@
   "test-depends": [],
   "provides": {
     "Zap": "lib/Zap.pm6",
-    "Zap::Client": "lib/Zap/Client.pm6"
+    "Zap::Client": "lib/Zap/Client.pm6",
+    "Zap::Simple": "lib/Zap/Simple.pm6"
   },
   "resources": [],
   "license": "Artistic-2.0",
