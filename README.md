@@ -37,6 +37,7 @@ Installation
 TODO
 ====
 
+* Documentation and documentation
 * Make the code and API Response more easy to handle
 * Write a Script to provide a CLI `raku-zap` maybe ?
 * Write an Interface for the zap CLI 
